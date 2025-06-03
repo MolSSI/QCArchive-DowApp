@@ -1,0 +1,20 @@
+name: dow-mpc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - streamlit  
+  - qcportal  
+  - nglview   
+  - pip
+  - pip:
+      - streamlit-ketcher
+      - qcportal 
+      - rdkit==2024.09.6
+      - qcelemental
+      - nglview
+      - py3Dmol
+      - pubchempy
+      - rdkit-pypi
