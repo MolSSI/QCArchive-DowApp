@@ -18,3 +18,4 @@ dependencies:
       - py3Dmol
       - pubchempy
       - rdkit-pypi
+      - streamlit-javascript  
